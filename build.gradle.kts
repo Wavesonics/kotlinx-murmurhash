@@ -37,6 +37,7 @@ repositories {
     gradlePluginPortal()
 }
 
+@OptIn(ExperimentalWasmDsl::class)
 kotlin {
     explicitApi()
 
